@@ -12,8 +12,8 @@
 
 # Чтобы запустить в Docker 
 1) создайте образ.  в корне приложения(где находится Dockerfile)
-`docker build -t imageName .`
-2) запустите  `docker run -it -p 3000:3000 imageName`
+`docker build -t imagename .`
+2) запустите  `docker run -it -p 3000:3000 imagename`
 
 Приложение должно запуститься на http://localhost:3000 
 
