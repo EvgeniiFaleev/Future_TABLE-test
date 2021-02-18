@@ -1,0 +1,29 @@
+.links{
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  a{
+    outline: 0;
+    cursor: pointer;
+    background-color: rgba(38, 50, 56, 0.8);
+    text-align: center;
+    line-height: 32px;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+    color: #FFF;
+    font: normal normal normal 14px/1;
+    font-size: 26px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+   text-decoration: none;
+  display: block;
+    &:hover{
+      background-color: rgba(0, 150, 136, 0.8);
+    }
+  }
+}

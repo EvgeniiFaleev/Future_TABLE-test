@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@users": [
+        "features/users"
+      ],
+      "@users/*": [
+        "features/users/*"
+      ],
+      "@ui/*": [
+        "ui/*"
+      ],
+      "@ui": [
+        "ui"
+      ],
+      "@api/*": [
+        "api/*"
+      ],
+      "@api": [
+        "api"
+      ],
+      "@store": [
+        "lib/store"
+      ],
+      "@store/*": [
+        "lib/store/*"
+      ],
+      "@pages": [
+        "pages"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ]
+    }
+  }
+}
